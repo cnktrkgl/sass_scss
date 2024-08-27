@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #e2dad6;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.info {
+  background: red;
+}/*# sourceMappingURL=design.css.map */
