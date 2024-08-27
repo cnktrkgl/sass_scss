@@ -1,0 +1,24 @@
+$primary_color: #6482ad;
+$secondary_color: #7fa1c3;
+$info_color: #f5eded;
+$bg_color: #e2dad6;
+$text_color: #ffffff;
+$padding_10 : 10px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  background: $bg_color;
+  color: $text_color;
+  padding: $padding_10;
+}
+
+.info {
+    $bg_color: red;
+    // $bg_color: red !global;
+    background: $bg_color;
+}
