@@ -1,0 +1,23 @@
+@import "mixin_card";
+
+nav {
+  //background: $bg_color;
+  @include card_mixin_v2(#fcde70);
+  margin-bottom: 20px;
+  padding: 15px 5px;
+  & > ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    & > li {
+      & > a {
+        text-decoration: none;
+        color: $text_color;
+        &:hover {
+          color: $info_color;
+        }
+      }
+    }
+  }
+}

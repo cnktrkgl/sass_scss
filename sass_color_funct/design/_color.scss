@@ -1,0 +1,20 @@
+$base_color: #d2e0fb;
+
+$darken_color: darken($base_color, 10%);
+
+$lighter_color: lighten($base_color, 10%);
+
+.base-color {
+  padding: 20px;
+  background: $base_color;
+}
+
+.darken-color {
+  @extend .base-color;
+  background: $darken_color;
+}
+
+.lighter-color {
+  @extend .base-color;
+  background: $lighter_color;
+}

@@ -1,0 +1,7 @@
+$sizes: 0 5 10 15 20;
+
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: #{$size}px;
+  }
+}
